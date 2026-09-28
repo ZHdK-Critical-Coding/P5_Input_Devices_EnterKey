@@ -12,6 +12,11 @@ Taster, Fussschalter oder Tastatur-Emulatoren, die Enter senden.
 Voraussetzungen: eine Tastatur (oder ein Gerät, das die Enter-Taste sendet)
 und ein aktueller Browser.
 
+Bibliotheken (in `libraries/`): p5.js 1.10.0, p5.sound 1.0.1 (eingebunden,
+nicht verwendet).
+
+## Ausführen
+
 1. Den Ordner in Visual Studio Code öffnen und Live Server starten (in der
    Statusleiste auf **Go Live** klicken).
 2. In die Zeichenfläche klicken, damit sie den Tastatur-Fokus hat.
@@ -19,9 +24,6 @@ und ein aktueller Browser.
    - **Down** (rot): gefüllt, solange die Taste gedrückt ist.
    - **Once** (grün): leuchtet bei jedem Drücken eine Sekunde auf.
    - **Toggled** (blau): schaltet bei jedem Loslassen ein oder aus.
-
-Bibliotheken (in `libraries/`): p5.js 1.10.0, p5.sound 1.0.1 (eingebunden,
-nicht verwendet).
 
 ## Coding-Hilfe
 

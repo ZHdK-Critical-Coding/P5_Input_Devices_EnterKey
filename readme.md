@@ -12,6 +12,11 @@ emulators that send Enter.
 Requirements: a keyboard (or any device that sends the Enter key) and a
 current browser.
 
+Libraries (in `libraries/`): p5.js 1.10.0, p5.sound 1.0.1 (included, not
+used).
+
+## How to Run
+
 1. Open the folder in Visual Studio Code and start Live Server (click
    **Go Live** in the status bar).
 2. Click the canvas so it has keyboard focus.
@@ -19,9 +24,6 @@ current browser.
    - **Down** (red): filled as long as the key is held.
    - **Once** (green): lights up for one second on each press.
    - **Toggled** (blue): switches on or off each time the key is released.
-
-Libraries (in `libraries/`): p5.js 1.10.0, p5.sound 1.0.1 (included, not
-used).
 
 ## Coding Help
 
